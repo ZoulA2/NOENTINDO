@@ -32,8 +32,8 @@ class Mydestc extends HTMLElement {
     render() {
         if (this.shadowRoot) {
             this.shadowRoot.innerHTML = `
-        <link rel="stylesheet" href="./app/components/destc/destc.css">
-
+       
+     <link rel="stylesheet" href="./app/components/destc/destc.css">
        <div class= "destc">
         <img class="imag" src="${this.img}">
         <p1><strong>${this.info}</strong></p1>
@@ -43,5 +43,6 @@ class Mydestc extends HTMLElement {
         }
     }
 }
+
 export default Mydestc;
 customElements.define("my-destc", Mydestc);

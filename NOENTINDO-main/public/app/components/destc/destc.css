@@ -1,0 +1,11 @@
+.imag{
+    width: 200px;
+    height: 30px;
+}
+
+.destcontainer{
+display: flex;
+flex-wrap: wrap;
+
+
+}
