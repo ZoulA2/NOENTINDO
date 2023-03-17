@@ -4,7 +4,7 @@ interface DataShape {
     cons: string;
 }
 
-const destc = [{
+const destcdata: DataShape[] = [{
     img: "https://mms.businesswire.com/media/20230208005930/en/1709242/5/ND_Lead.jpg",
     info: "JUGALO AHORA, ES UN JUEGAZO, AHORA EN HD",
     cons: "",
@@ -25,4 +25,4 @@ const destc = [{
     cons: "nintendo switch",
 }
 ]
-
+export default destcdata;

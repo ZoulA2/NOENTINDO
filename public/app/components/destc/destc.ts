@@ -31,7 +31,7 @@ attributeChangedCallback(propName: Attribute,oldValue: undefined,newValue: strin
     this.render()
 }
 
-connectedCallback(){
+connectedCallback(): void{
     this.render();
 }
 
@@ -39,11 +39,12 @@ render(){
     if (this.shadowRoot){
         this.shadowRoot.innerHTML = `
         <link rel="stylesheet" href="./app/components/destc/destc.css">
-        <section>
+
+       <div class= "destc">
         <img class="imag" src="${this.img}">
         <p1><strong>${this.info}</strong></p1>
         <p>${this.cons}<p>
-        </section>
+        </div>
         `
     }
 }
