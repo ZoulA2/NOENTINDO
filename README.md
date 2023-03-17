@@ -1,2 +1,2 @@
 # NOENTINDO
-Work donde with ts
+Work done with ts
