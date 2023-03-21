@@ -40,6 +40,8 @@ class destcontainer extends HTMLElement {
         }
        
         render() {
+            this.shadowRoot!.innerHTML = `
+        <link rel="stylesheet" href="./app/components/destc/destc.css">`
 
             const destccards = this.ownerDocument.createElement("section");
             destccards.className = 'destcontainer'
@@ -53,6 +55,128 @@ class destcontainer extends HTMLElement {
         }
 
         customElements.define("destc-container", destcontainer)
+
+        class tecontainer extends HTMLElement {
+            tes: components.Myte[] = [];
+           
+            constructor() {
+                super();
+                this.attachShadow({ mode: "open" });
+        
+                tedata.forEach((user) => {
+                    const tecard = this.ownerDocument.createElement(
+                        "my-te" ) as components.Myte;
+                        tecard.setAttribute(Attribute6.tit, user.tit);
+                        tecard.setAttribute(Attribute6.img, user.img);
+                        tecard.setAttribute(Attribute6.info, (user.info));
+                        
+                        this.tes.push(tecard);
+                    });
+                }
+        
+                connectedCallback() {
+                    this.render();
+                }
+               
+                render() {
+                    this.shadowRoot!.innerHTML = `
+                    <link rel="stylesheet" href="./app/components/te/te.css">`
+        
+                    const tecards = this.ownerDocument.createElement("section");
+                    tecards.className = 'tecontainer'
+                    this.tes.forEach((tecard) => {
+                        tecards.appendChild(tecard);
+                       
+                    })
+                    this.shadowRoot?.appendChild(tecards);
+                   
+                    }
+                }
+        
+                customElements.define("te-container", tecontainer)     
+
+        
+        class novonecontainer extends HTMLElement {
+            novones: components.Mynovone[] = [];
+           
+            constructor() {
+                super();
+                this.attachShadow({ mode: "open" });
+        
+                novonedata.forEach((user) => {
+                    const novonecard = this.ownerDocument.createElement(
+                        "my-novone" ) as components.Mynovone;
+                        novonecard.setAttribute(Attribute4.img, user.img);
+                        novonecard.setAttribute(Attribute4.info, (user.info));
+                        novonecard.setAttribute(Attribute4.ix, (user.ix));
+                        novonecard.setAttribute(Attribute4.fesha, user.fesha);
+                        novonecard.setAttribute(Attribute4.moar, user.moar);
+                        this.novones.push(novonecard);
+                    });
+                }
+        
+                connectedCallback() {
+                    this.render();
+                }
+               
+                render() {
+                    this.shadowRoot!.innerHTML = `
+                    <link rel="stylesheet" href="./app/components/novone/novone.css">`
+        
+                    const novonecards = this.ownerDocument.createElement("section");
+                    novonecards.className = 'novonecontainer'
+                    this.novones.forEach((novonecard) => {
+                        novonecards.appendChild(novonecard);
+                       
+                    })
+                    this.shadowRoot?.appendChild(novonecards);
+                   
+                    }
+                }
+        
+                customElements.define("novone-container", novonecontainer)
+
+                class novtwocontainer extends HTMLElement {
+                    novtwos: components.Mynovtwo[] = [];
+                   
+                    constructor() {
+                        super();
+                        this.attachShadow({ mode: "open" });
+                
+                        novtwodata.forEach((user) => {
+                            const novtwocard = this.ownerDocument.createElement(
+                                "my-novtwo" ) as components.Mynovtwo;
+                                novtwocard.setAttribute(Attribute5.img, user.img);
+                                novtwocard.setAttribute(Attribute5.info, (user.info));
+                                novtwocard.setAttribute(Attribute5.fesha, user.fesha);
+                                novtwocard.setAttribute(Attribute5.moar, user.moar);
+                                
+                                this.novtwos.push(novtwocard);
+                            });
+                        }
+                
+                        connectedCallback() {
+                            this.render();
+                        }
+                       
+                        render() {
+                            this.shadowRoot!.innerHTML = `
+                            <link rel="stylesheet" href="./app/components/novtwo/novtwo.css">`
+                
+                            const novtwocards = this.ownerDocument.createElement("section");
+                            novtwocards.className = 'novtwocontainer'
+                            this.novtwos.forEach((novtwocard) => {
+                                novtwocards.appendChild(novtwocard);
+                               
+                            })
+                            this.shadowRoot?.appendChild(novtwocards);
+                           
+                            }
+                        }
+                
+                        customElements.define("novtwo-container", novtwocontainer)
+        
+                        
 
 /* class destcontainer extends HTMLElement {
     destcs: components.Mydestc[] = []
@@ -88,7 +212,7 @@ class destcontainer extends HTMLElement {
 
 customElements.define("destc-container",destcontainer); */
 
-class mvcontainer extends HTMLElement {
+/* class mvcontainer extends HTMLElement {
     mvs: components.Mymv[] = []
     constructor(){
         super();
@@ -121,7 +245,88 @@ class mvcontainer extends HTMLElement {
     }
 
 customElements.define("mv-container",mvcontainer);
+ */
+
+class mvcontainer extends HTMLElement {
+    mvs: components.Mymv[] = [];
+   
+    constructor() {
+        super();
+        this.attachShadow({ mode: "open" });
+
+        mvdata.forEach((user) => {
+            const mvcard = this.ownerDocument.createElement(
+                "my-mv" ) as components.Mymv;
+                mvcard.setAttribute(Attribute2.img, user.img);
+                mvcard.setAttribute(Attribute2.info, (user.info));
+                mvcard.setAttribute(Attribute2.fesha, user.fesha);
+                mvcard.setAttribute(Attribute2.cons, user.cons);
+                mvcard.setAttribute(Attribute2.moneh, user.moneh);
+                this.mvs.push(mvcard);
+            });
+        }
+
+        connectedCallback() {
+            this.render();
+        }
+       
+        render() {
+            this.shadowRoot!.innerHTML = `
+            <link rel="stylesheet" href="./app/components/mv/mv.css">`
+
+            const mvcards = this.ownerDocument.createElement("section");
+            mvcards.className = 'mvcontainer'
+            this.mvs.forEach((mvcard) => {
+                mvcards.appendChild(mvcard);
+               
+            })
+            this.shadowRoot?.appendChild(mvcards);
+           
+            }
+        }
+
+        customElements.define("mv-container", mvcontainer)
 
 
+        class nlcontainer extends HTMLElement {
+            nls: components.Mynl[] = [];
+           
+            constructor() {
+                super();
+                this.attachShadow({ mode: "open" });
+        
+                nldata.forEach((user) => {
+                    const nlcard = this.ownerDocument.createElement(
+                        "my-nl" ) as components.Mynl;
+                        nlcard.setAttribute(Attribute3.img, user.img);
+                        nlcard.setAttribute(Attribute3.info, (user.info));
+                        nlcard.setAttribute(Attribute3.fesha, user.fesha);
+                        nlcard.setAttribute(Attribute3.noveda, user.noveda);
+                        nlcard.setAttribute(Attribute3.moneh, user.moneh);
+                        nlcard.setAttribute(Attribute3.cons, user.cons);
+                        this.nls.push(nlcard);
+                    });
+                }
+        
+                connectedCallback() {
+                    this.render();
+                }
+               
+                render() {
+                    this.shadowRoot!.innerHTML = `
+                    <link rel="stylesheet" href="./app/components/nl/nl.css">`
+        
+                    const nlcards = this.ownerDocument.createElement("section");
+                    nlcards.className = 'nlcontainer'
+                    this.nls.forEach((nlcard) => {
+                        nlcards.appendChild(nlcard);
+                       
+                    })
+                    this.shadowRoot?.appendChild(nlcards);
+                   
+                    }
+                }
+        
+                customElements.define("nl-container", nlcontainer)
 
-
+                

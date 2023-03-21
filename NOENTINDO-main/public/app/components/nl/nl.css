@@ -4,17 +4,26 @@
     
 }
 
-.destc{
+.nl{
     width: 300px;
 display: flex;
 flex-direction: column;
+
 }
 
-.destcontainer{
+.nlcontainer{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    
+    
 }
 
+.nl h1{
+    font-size: small;
+    margin-top: -20px;
+}
 
-
+.nl p{
+    margin-top: -3px; 
+}

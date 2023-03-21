@@ -40,7 +40,7 @@ connectedCallback(): void{
 render(){
     if (this.shadowRoot){
         this.shadowRoot.innerHTML = `
-        <link rel="stylesheet" href="./app/components/destc/destc.css">
+        <link rel="stylesheet" href="./app/components/te/te.css">
         <div class= "te">
         <h1> ${this.tit}</h1>
         <img class="imag" src="${this.img}">

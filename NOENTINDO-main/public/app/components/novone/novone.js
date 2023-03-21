@@ -3,6 +3,7 @@ export var Attribute4;
     Attribute4["img"] = "img";
     Attribute4["fesha"] = "fesha";
     Attribute4["info"] = "info";
+    Attribute4["ix"] = "ix";
     Attribute4["moar"] = "moar";
 })(Attribute4 || (Attribute4 = {}));
 class Mynovone extends HTMLElement {
@@ -11,6 +12,7 @@ class Mynovone extends HTMLElement {
             img: null,
             fesha: null,
             info: null,
+            ix: null,
             moar: null,
         };
         return Object.keys(attrs);
@@ -34,11 +36,12 @@ class Mynovone extends HTMLElement {
     render() {
         if (this.shadowRoot) {
             this.shadowRoot.innerHTML = `
-        <link rel="stylesheet" href="./app/components/mv/mv.css">
-        <div class= "noveone">
+        <link rel="stylesheet" href="./app/components/novone/novone.css">
+        <div class= "novone">
         <img class="imag" src="${this.img}">
         <p>${this.fesha}</p>
         <p1><strong>${this.info}</strong></p1>
+        <p2>${this.ix}</p2>
         <h1>${this.moar}</h1>
         </div>
         `;

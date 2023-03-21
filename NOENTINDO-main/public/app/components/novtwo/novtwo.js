@@ -5,7 +5,7 @@ export var Attribute5;
     Attribute5["info"] = "info";
     Attribute5["moar"] = "moar";
 })(Attribute5 || (Attribute5 = {}));
-class Mynovone extends HTMLElement {
+class Mynovtwo extends HTMLElement {
     static get observedAttributes() {
         const attrs = {
             img: null,
@@ -34,7 +34,7 @@ class Mynovone extends HTMLElement {
     render() {
         if (this.shadowRoot) {
             this.shadowRoot.innerHTML = `
-        <link rel="stylesheet" href="./app/components/mv/mv.css">
+        <link rel="stylesheet" href="./app/components/novtwo/novtwo.css">
         <div class= "novtwo">
         <img class="imag" src="${this.img}">
         <p>${this.fesha}</p>
@@ -45,5 +45,5 @@ class Mynovone extends HTMLElement {
         }
     }
 }
-export default Mynovone;
-customElements.define("my-novone", Mynovone);
+export default Mynovtwo;
+customElements.define("my-novtwo", Mynovtwo);

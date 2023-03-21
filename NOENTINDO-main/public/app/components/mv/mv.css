@@ -4,17 +4,26 @@
     
 }
 
-.destc{
+.mv{
     width: 300px;
 display: flex;
 flex-direction: column;
+
 }
 
-.destcontainer{
+.mvcontainer{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    
+    
 }
 
+.mv h1{
+    font-size: small;
+    margin-top: -20px;
+}
 
-
+.mv p{
+    margin-top: -3px; 
+}

@@ -2,6 +2,7 @@ export enum Attribute4{
     "img"= "img",
     "fesha"="fesha",
     "info"= "info",
+    "ix"= "ix",
     "moar"="moar",
 
 }
@@ -10,6 +11,7 @@ class Mynovone extends HTMLElement{
     img?: string
     fesha?: string
     info?: string
+    ix?: string
     moar?: string
 
     static get observedAttributes(){
@@ -17,6 +19,7 @@ class Mynovone extends HTMLElement{
             img : null,
             fesha : null,
             info : null,
+            ix : null,
             moar : null,
 
         }
@@ -43,11 +46,12 @@ connectedCallback(){
 render(){
     if (this.shadowRoot){
         this.shadowRoot.innerHTML = `
-        <link rel="stylesheet" href="./app/components/mv/mv.css">
-        <div class= "noveone">
+        <link rel="stylesheet" href="./app/components/novone/novone.css">
+        <div class= "novone">
         <img class="imag" src="${this.img}">
         <p>${this.fesha}</p>
         <p1><strong>${this.info}</strong></p1>
+        <p2>${this.ix}</p2>
         <h1>${this.moar}</h1>
         </div>
         `

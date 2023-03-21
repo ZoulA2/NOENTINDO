@@ -47,7 +47,7 @@ connectedCallback(){
 render(){
     if (this.shadowRoot){
         this.shadowRoot.innerHTML = `
-        <link rel="stylesheet" href="./app/components/mv/mv.css">
+        <link rel="stylesheet" href="./app/components/nl/nl.css">
         <div class= "nl">
         <img class="imag" src="${this.img}">
         <p1><strong>${this.info}</strong></p1>

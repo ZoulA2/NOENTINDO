@@ -4,17 +4,26 @@
     
 }
 
-.destc{
+.novtwo{
     width: 300px;
 display: flex;
 flex-direction: column;
+
 }
 
-.destcontainer{
+.novtwocontainer{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    
+    
 }
 
+.novtwo h1{
+    font-size: small;
+    margin-top: 10px;
+}
 
-
+.novtwo p1{
+    margin-top: -5px; 
+}

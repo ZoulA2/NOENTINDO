@@ -1,3 +1,5 @@
+
+
 export enum Attribute5{
     "img"= "img",
     "fesha"="fesha",
@@ -6,7 +8,7 @@ export enum Attribute5{
 
 }
 
-class Mynovone extends HTMLElement{
+class Mynovtwo extends HTMLElement{
     img?: string
     fesha?: string
     info?: string
@@ -43,7 +45,7 @@ connectedCallback(){
 render(){
     if (this.shadowRoot){
         this.shadowRoot.innerHTML = `
-        <link rel="stylesheet" href="./app/components/mv/mv.css">
+        <link rel="stylesheet" href="./app/components/novtwo/novtwo.css">
         <div class= "novtwo">
         <img class="imag" src="${this.img}">
         <p>${this.fesha}</p>
@@ -57,5 +59,5 @@ render(){
 }
 
 
-export default Mynovone;
-customElements.define("my-novone", Mynovone)
+export default Mynovtwo;
+customElements.define("my-novtwo", Mynovtwo)
