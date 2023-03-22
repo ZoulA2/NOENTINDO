@@ -1,0 +1,47 @@
+.imag{
+    width: 1013px;
+    height: 300px;
+    border-radius: 10px;
+   
+    
+    
+}
+
+.te{
+    width: 250px;
+display: flex;
+flex-direction: column;
+
+}
+
+.tecontainer{
+    
+    display: flex;
+    padding-left: 110px;
+    padding-bottom: 30px;
+    flex-direction: column;
+    
+    
+}
+
+.te h1{
+    font-size: medium;
+    clear: both;
+    display: inline-block;
+    white-space: nowrap;
+    margin-top: 10px;
+    padding-left: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(66, 66, 66);
+    font-size: 28px;
+}
+
+.te p1{
+    margin-top: 5px; 
+    clear: both;
+    display: inline-block;
+    white-space: nowrap;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: gray;
+
+}

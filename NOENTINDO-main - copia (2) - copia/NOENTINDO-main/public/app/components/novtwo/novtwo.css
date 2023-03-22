@@ -1,0 +1,29 @@
+.imag{
+    width: 230px;
+    height: 130px;
+    border-radius: 10px;
+}
+
+.novtwo{
+    width: 300px;
+display: flex;
+flex-direction: column;
+
+}
+
+.novtwocontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    
+}
+
+.novtwo h1{
+    font-size: small;
+    margin-top: 10px;
+}
+
+.novtwo p1{
+    margin-top: -5px; 
+}

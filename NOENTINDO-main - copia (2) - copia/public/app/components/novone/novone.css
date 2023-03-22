@@ -1,0 +1,43 @@
+.imag{
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+    
+    
+}
+
+.novone{
+    width: 200px;
+display: flex;
+flex-direction: column;
+
+}
+
+.novonecontainer{
+    width: 1030px;
+    display: flex;
+    margin-left: -50px;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+.novone h1{
+    font-size: small;
+    margin-top: 10px;
+    font-size: 14px;
+    text-decoration: underline;
+    color: crimson;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.novone p1{
+    margin-top: -3px; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(66, 66, 66);
+}
+.novone p2{
+    font-size: medium;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: gray;
+}

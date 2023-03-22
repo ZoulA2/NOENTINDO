@@ -1,0 +1,20 @@
+.imag{
+    width: 230px;
+    height: 130px;
+    border-radius: 10px;
+}
+
+.destc{
+    width: 300px;
+display: flex;
+flex-direction: column;
+}
+
+.destcontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+

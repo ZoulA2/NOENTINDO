@@ -1,0 +1,51 @@
+.imag{
+    width: 230px;
+    height: 130px;
+    border-radius: 10px;
+}
+
+.imag:hover{
+    position: relative;
+    width: 230px;
+    height: 120px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    top: -10px;
+}
+ 
+
+
+.nl{
+    width: 300px;
+display: flex;
+flex-direction: column;
+
+}
+
+.nlcontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    
+}
+
+.nl h1{
+    font-size: small;
+    margin-top: -20px;
+    font-size: 14px;
+    text-decoration: underline;
+    color: crimson;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.nl p{
+    margin-top: -3px; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: gray;
+}
+.nl p1{
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(66, 66, 66);
+}
