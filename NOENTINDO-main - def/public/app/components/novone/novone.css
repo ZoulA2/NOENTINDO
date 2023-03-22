@@ -1,0 +1,53 @@
+.imag{
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+    
+   
+}
+.imag:hover{
+    position: relative;
+    width: 500px;
+    height: 300px;
+    filter: brightness(50%);
+}
+ 
+
+.novone{
+    width: 200px;
+display: flex;
+flex-direction: column;
+margin: 170px;
+margin-bottom: -30px;
+margin-top: -5px;
+
+}
+
+.novonecontainer{
+    width: 1030px;
+    display: flex;
+
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.novone h1{
+    font-size: small;
+    margin-top: 10px;
+    font-size: 14px;
+    text-decoration: underline;
+    color: crimson;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.novone p1{
+    margin-top: -3px; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(66, 66, 66);
+}
+.novone p2{
+    font-size: medium;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: gray;
+}

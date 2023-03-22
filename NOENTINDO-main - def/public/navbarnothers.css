@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+   
+}
+
+
+
+.Search{
+    position:fixed;
+   
+  z-index: 4;
+  width: 100%;
+}
+
+.Search input{
+    position: absolute;
+    width: 400px;
+    height: 55px;
+    font-size: 15px;
+    padding-top: -10%;
+    text-decoration: underline;
+    border: none;
+    
+}
+
+.cor{
+    top: 10px;
+    right: 100px;
+    position: fixed;
+    width: 30px;
+    height: 30px;
+}
+
+.sup{
+    top: 10px;
+    right: 150px;
+    position: fixed;
+    width: 30px;
+    height: 30px;
+}
+
+.alfonso{
+    top: 10px;
+    right: 50px;
+    position: fixed;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.logo{
+    padding-top: -30px;
+height: 55px;
+width: 105px;
+}
+
+.bck{
+    z-index: 3;
+    width: 100%;
+    height: 100px;
+    position: fixed;
+}
+
+.titu{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(66, 66, 66);
+    font-size: 28px;
+    padding-bottom: 10px;
+    padding-left: 3%;
+}
+
+.buttons{
+   
+    border-style: solid;
+    border-color: rgb(172, 0, 13);
+    background-color: rgb(230, 0, 18);
+    border-color: rgb(230, 0, 18);
+    padding: 10px; 
+    padding-top: 5px;
+    border-radius: 5px;
+    width: 180px;
+    clear: both;
+    display: inline-block;
+    white-space: nowrap;
+    width: 180px;
+    padding-left: 100;
+
+    font-size: 16px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.buttons:hover{
+    background-color: rgb(162, 7, 20);
+    border-color: rgb(162, 7, 20);
+    width: 180px;
+    padding: 14px;
+}
+
+.compontents{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.noti{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(66, 66, 66);
+font-size: 15px;
+font-size: small;
+display: flex;
+justify-content:left;
+margin-left: 450px;
+margin-top: -15px;
+
+}
+.juegos{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(66, 66, 66);
+font-size: 15px;
+font-size: small;
+display: flex;
+justify-content: center;
+margin-top: 20px;
+}
+.switch{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(66, 66, 66);
+font-size: 15px;
+font-size: small;
+display: flex;
+justify-content: right;
+margin-right: 450px;
+margin-top: -17px;
+}
+
+.redo{
+    margin-left: 120px;
+    margin-top: -15px;
+    padding-bottom: 30px;
+}
+.buttonss{
+   
+    border-style: solid;
+    border-color: rgb(172, 0, 13);
+    background-color: rgb(230, 0, 18);
+    border-color: rgb(230, 0, 18);
+    padding: 10px; 
+    padding-top: 5px;
+    border-radius: 5px;
+    width: 270px;
+    clear: both;
+    display: inline-block;
+    white-space: nowrap;
+    width: 270px;
+    padding-left: 100;
+
+    font-size: 16px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.buttonss:hover{
+    background-color: rgb(162, 7, 20);
+    border-color: rgb(162, 7, 20);
+    width: 270px;
+    padding: 14px;
+}

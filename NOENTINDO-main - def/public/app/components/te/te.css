@@ -1,0 +1,77 @@
+.imag{
+    width: 1013px;
+    height: 300px;
+    border-radius: 10px;
+   
+    
+    
+}
+
+.te{
+    width: 250px;
+display: flex;
+flex-direction: column;
+
+}
+
+.tecontainer{
+    
+    display: flex;
+    padding-left: 155px;
+    padding-bottom: 30px;
+    flex-direction: column;
+    
+    
+}
+
+.te h1{
+    font-size: medium;
+    clear: both;
+    display: inline-block;
+    white-space: nowrap;
+    margin-top: 10px;
+    padding-left: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(66, 66, 66);
+    font-size: 28px;
+}
+
+.te p1{
+    margin-top: 5px; 
+    clear: both;
+    display: inline-block;
+    white-space: nowrap;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: gray;
+
+}
+
+
+.button{
+    
+    position: relative;
+    border-style: solid;
+    border-color: rgb(172, 0, 13);
+    background-color: rgb(230, 0, 18);
+    border-color: rgb(230, 0, 18);
+    padding: 10px; 
+    padding-top: 5px;
+    border-radius: 5px;
+    width: 210px;
+
+    font-size: 24px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.button:hover{
+    background-color: rgb(162, 7, 20);
+    border-color: rgb(162, 7, 20);
+    width: 215px;
+    padding: 14px;
+}
+
+.te button{
+    margin-left: 335px;
+    margin-top: -20px;
+}

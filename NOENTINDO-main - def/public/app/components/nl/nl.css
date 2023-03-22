@@ -1,0 +1,59 @@
+.imag{
+    width: 230px;
+    height: 130px;
+    border-radius: 2px;
+}
+
+.imag:hover{
+    position: relative;
+    width: 230px;
+    height: 120px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    top: -10px;
+}
+ 
+
+
+.nl{
+    width: 230px;
+    height: 250px;
+display: flex;
+flex-direction: column;
+box-shadow: 0 0 0 1px rgba(72, 72, 72, 0.431);
+margin: 25px;
+
+}
+
+.nlcontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   
+    
+    
+}
+
+.nl h1{
+    font-size: small;
+    margin-top: -20px;
+    font-size: 14px;
+    color: rgb(66, 66, 66);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.nl p{
+    margin-top: -3px; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: gray;
+}
+.nl p1{
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(66, 66, 66);
+}
+
+.nl p3{
+    background-color: crimson;
+    border-radius: 10px;
+}
