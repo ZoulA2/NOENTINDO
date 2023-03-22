@@ -1,7 +1,7 @@
 const tedata = [
     {
         tit: "Tienda de juegos",
-        img: "https://depor.com/resizer/x6GXxfFTTEgR8HcwJWSHOFIVqWc=/580x330/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/WNWKG44PFNELJK3IQCA5QSKPTY.jpg",
+        img: "https://m.media-amazon.com/images/M/MV5BYmVkMjg0ZDgtMDlhYi00NTBmLWFlMzAtODNiNjFlOGMzZDY2XkEyXkFqcGdeQXRyYW5zY29kZS13b3JrZmxvdw@@._V1_.jpg",
         info: "¡Compra, descarga y juega de inmediato!",
     },
     {
